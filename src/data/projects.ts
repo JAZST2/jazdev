@@ -44,6 +44,54 @@ export const projectsData: Project[] = [
       "/hvac/hvac3.png",
     ],
   },
+          {
+    id: "perkly-mobile",
+    title: "Perkly",
+    category: "Reward System",
+    projectType: "Personal Project",
+    platform: "mobile",
+    summary:
+      "Perkly is a digital loyalty platform that allows users to seamlessly collect stamps from local businesses and redeem them for rewards. It simplifies the loyalty experience by replacing traditional paper cards with a streamlined, mobile-first reward tracking system..",
+    challenge:
+      "Perkly is a digital loyalty platform that allows users to seamlessly collect stamps from local businesses and redeem them for rewards. It simplifies the loyalty experience by replacing traditional paper cards with a streamlined, mobile-first reward tracking system.",
+    solution:
+      "Perkly is a digital loyalty platform that allows users to seamlessly collect stamps from local businesses and redeem them for rewards. It simplifies the loyalty experience by replacing traditional paper cards with a streamlined, mobile-first reward tracking system.",
+    techStack: ["SwiftUI", "Supabase", "Combine"],
+    coverImage: "/perkly/perkly1.png",
+    gallery: ["/perkly/perkly1.png", "/perkly/perkly2.png", "/perkly/perkly3.png", "/perkly/perkly4.png"],
+  },
+      {
+    id: "mylexus-watchapp-watch",
+    title: "MY LEXUS",
+    category: "Apple Watch App",
+    projectType: "Work Project",
+    platform: "mobile",
+    summary:
+      "The MY LEXUS watchOS companion app is designed to seamlessly extend premium vehicle management directly to the user's wrist.",
+    challenge:
+      "The MY LEXUS watchOS companion app is designed to seamlessly extend premium vehicle management directly to the user's wrist.",
+    solution:
+      "The MY LEXUS watchOS companion app is designed to seamlessly extend premium vehicle management directly to the user's wrist.",
+    techStack: ["Swift", "SwiftUI", "Combine"],
+    coverImage: "/mylexus/mylexus1.png",
+    gallery: ["/mylexus/mylexus1.png", "/mylexus/mylexus2.png"],
+  },
+      {
+    id: "booking-web",
+    title: "Booking System",
+    category: "Booking System",
+    projectType: "Personal Project",
+    platform: "web",
+    summary:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    challenge:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    solution:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    techStack: ["PHP", "MYSql", "Bootstrap"],
+    coverImage: "/mylexus/mylexus1.png",
+    gallery: ["/mylexus/mylexus1.png", "/mylexus/mylexus2.png"],
+  },
     {
     id: "hotel-website",
     title: "The Aura",
@@ -76,22 +124,22 @@ export const projectsData: Project[] = [
     coverImage: "/corporate/axis1.png",
     gallery: ["/corporate/axis1.png", "/corporate/axis2.png", "/corporate/axis3.png", "/corporate/axis4.png"],
   },
-  {
-    id: "marketing-personal-website",
-    title: "Camille's Portfolio",
-    category: "Marketing & PR",
-    projectType: "Personal Project",
-    platform: "web",
-    summary:
-      "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
-    challenge:
-      "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
-    solution:
-      "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    coverImage: "/marketing-personal/marketing1.png",
-    gallery: ["/marketing-personal/marketing1.png", "/marketing-personal/marketing2.png", "/marketing-personal/marketing3.png", "/marketing-personal/marketing4.png"],
-  },
+  // {
+  //   id: "marketing-personal-website",
+  //   title: "Camille's Portfolio",
+  //   category: "Marketing & PR",
+  //   projectType: "Personal Project",
+  //   platform: "web",
+  //   summary:
+  //     "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
+  //   challenge:
+  //     "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
+  //   solution:
+  //     "A modern personal marketing website focused on building a strong personal brand—highlighting expertise, services, and key accomplishments to attract potential clients and opportunities.",
+  //   techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
+  //   coverImage: "/marketing-personal/marketing1.png",
+  //   gallery: ["/marketing-personal/marketing1.png", "/marketing-personal/marketing2.png", "/marketing-personal/marketing3.png", "/marketing-personal/marketing4.png"],
+  // },
   {
     id: "banking-website",
     title: "BizLink",
