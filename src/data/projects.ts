@@ -14,8 +14,7 @@ export const projectsData: Project[] = [
     solution:
       "Pulse Media is a full-service digital marketing agency dedicated to helping businesses thrive in the digital age through innovative strategies and creative excellence.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    coverImage:
-      "/pulse-media/pulsemedia1.png",
+    coverImage: "/pulse-media/pulsemedia1.png",
     gallery: [
       "/pulse-media/pulsemedia1.png",
       "/pulse-media/pulsemedia2.png",
@@ -36,15 +35,35 @@ export const projectsData: Project[] = [
     solution:
       "Provider energy-efficient HVAC solutions, including professional installation, repair, and maintenance services designed to keep your home or business comfortable all year round.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    coverImage:
-      "/hvac/hvac1.png",
+    coverImage: "/hvac/hvac1.png",
+    gallery: ["/hvac/hvac1.png", "/hvac/hvac2.png", "/hvac/hvac3.png"],
+  },
+  {
+    id: "booking-web",
+    title: "Booking System",
+    category: "Booking System",
+    projectType: "Personal Project",
+    platform: "web",
+    summary:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    challenge:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    solution:
+      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
+    techStack: ["PHP", "MYSql", "Bootstrap"],
+    coverImage: "/booking/booking5.jpeg",
     gallery: [
-      "/hvac/hvac1.png",
-      "/hvac/hvac2.png",
-      "/hvac/hvac3.png",
+      "/booking/booking1.jpeg",
+      "/booking/booking2.jpeg",
+      "/booking/booking3.jpeg",
+      "/booking/booking4.jpeg",
+      "/booking/booking5.jpeg",
+      "/booking/booking6.jpeg",
+      "/booking/booking7.jpeg",
+      "/booking/booking8.jpeg",
     ],
   },
-          {
+  {
     id: "perkly-mobile",
     title: "Perkly",
     category: "Reward System",
@@ -58,9 +77,14 @@ export const projectsData: Project[] = [
       "Perkly is a digital loyalty platform that allows users to seamlessly collect stamps from local businesses and redeem them for rewards. It simplifies the loyalty experience by replacing traditional paper cards with a streamlined, mobile-first reward tracking system.",
     techStack: ["SwiftUI", "Supabase", "Combine"],
     coverImage: "/perkly/perkly1.png",
-    gallery: ["/perkly/perkly1.png", "/perkly/perkly2.png", "/perkly/perkly3.png", "/perkly/perkly4.png"],
+    gallery: [
+      "/perkly/perkly1.png",
+      "/perkly/perkly2.png",
+      "/perkly/perkly3.png",
+      "/perkly/perkly4.png",
+    ],
   },
-      {
+  {
     id: "mylexus-watchapp-watch",
     title: "MY LEXUS",
     category: "Apple Watch App",
@@ -76,23 +100,7 @@ export const projectsData: Project[] = [
     coverImage: "/mylexus/mylexus1.png",
     gallery: ["/mylexus/mylexus1.png", "/mylexus/mylexus2.png"],
   },
-      {
-    id: "booking-web",
-    title: "Booking System",
-    category: "Booking System",
-    projectType: "Personal Project",
-    platform: "web",
-    summary:
-      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
-    challenge:
-      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
-    solution:
-      "This digital platform integrates a real-time booking engine with customer management to streamline scheduling and client tracking. It automates the appointment lifecycle while providing merchants with an intuitive dashboard to manage service availability and customer insights.",
-    techStack: ["PHP", "MYSql", "Bootstrap"],
-    coverImage: "/mylexus/mylexus1.png",
-    gallery: ["/mylexus/mylexus1.png", "/mylexus/mylexus2.png"],
-  },
-    {
+  {
     id: "hotel-website",
     title: "The Aura",
     category: "Hotel Company",
@@ -106,7 +114,12 @@ export const projectsData: Project[] = [
       "The Aura is a luxury hotel website that showcases the amenities, services, and experiences available to guests.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
     coverImage: "/hotel/hotel1.png",
-    gallery: ["/hotel/hotel1.png", "/hotel/hotel2.png", "/hotel/hotel3.png", "/hotel/hotel4.png"],
+    gallery: [
+      "/hotel/hotel1.png",
+      "/hotel/hotel2.png",
+      "/hotel/hotel3.png",
+      "/hotel/hotel4.png",
+    ],
   },
   {
     id: "corporate-website",
@@ -122,7 +135,12 @@ export const projectsData: Project[] = [
       "A corporate website designed to establish a strong online presence—showcasing services, company information, and key offerings with a clean, modern interface.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
     coverImage: "/corporate/axis1.png",
-    gallery: ["/corporate/axis1.png", "/corporate/axis2.png", "/corporate/axis3.png", "/corporate/axis4.png"],
+    gallery: [
+      "/corporate/axis1.png",
+      "/corporate/axis2.png",
+      "/corporate/axis3.png",
+      "/corporate/axis4.png",
+    ],
   },
   // {
   //   id: "marketing-personal-website",
@@ -153,12 +171,8 @@ export const projectsData: Project[] = [
     solution:
       "BPI BizLink is a digital banking platform by BPI that lets businesses manage finances online—like sending payments, handling payroll, paying bills, and monitoring transactions securely from one system.",
     techStack: ["React", "Next.js", "TypeScript", "Node.js"],
-    coverImage:
-      "/banking/bank1.jpeg",
-    gallery: [
-      "/banking/bank1.jpeg",
-      "/banking/bank2.jpeg",
-    ],
+    coverImage: "/banking/bank1.jpeg",
+    gallery: ["/banking/bank1.jpeg", "/banking/bank2.jpeg"],
   },
   {
     id: "banking-mobile",
@@ -174,7 +188,11 @@ export const projectsData: Project[] = [
       "BPI BizLink is a digital banking platform by BPI that lets businesses manage finances online—like sending payments, handling payroll, paying bills, and monitoring transactions securely from one system.",
     techStack: ["Swift", "UIKit", "Storyboard"],
     coverImage: "/bizlink/bizlink1.jpeg",
-    gallery: ["/bizlink/bizlink1.jpeg", "/bizlink/bizlink2.jpeg", "/bizlink/bizlink3.jpeg"],
+    gallery: [
+      "/bizlink/bizlink1.jpeg",
+      "/bizlink/bizlink2.jpeg",
+      "/bizlink/bizlink3.jpeg",
+    ],
   },
   {
     id: "bob-mobile",
@@ -206,6 +224,10 @@ export const projectsData: Project[] = [
       "Family Finance is a personal finance tracker that helps families manage income, expenses, and budgets in one place—making it easier to stay organized and in control of everyday finances.",
     techStack: ["Swift", "SwiftUI", "Combine"],
     coverImage: "/family-finance/family-finance1.jpeg",
-    gallery: ["/family-finance/family-finance1.jpeg", "/family-finance/family-finance2.jpeg", "/family-finance/family-finance3.jpeg"],
+    gallery: [
+      "/family-finance/family-finance1.jpeg",
+      "/family-finance/family-finance2.jpeg",
+      "/family-finance/family-finance3.jpeg",
+    ],
   },
 ];
