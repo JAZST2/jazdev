@@ -2,6 +2,54 @@ import type { Project } from "@/domain/entities/project";
 
 export const projectsData: Project[] = [
   {
+    id: "eod-agency-website",
+    title: "EOD",
+    category: "Marketing Agency",
+    projectType: "Personal Project",
+    platform: "web",
+    summary:
+      "EOD is a digital agency specializing in marketing, web design, and web development that helps businesses grow through creative, results-driven solutions.",
+    challenge:
+      "EOD is a digital agency specializing in marketing, web design, and web development that helps businesses grow through creative, results-driven solutions.",
+    solution:
+      "EOD is a digital agency specializing in marketing, web design, and web development that helps businesses grow through creative, results-driven solutions.",
+    techStack: ["PHP", "Tailwind CSS"],
+    coverImage: "/eod/eod1.png",
+    gallery: [
+      "/eod/eod1.png",
+      "/eod/eod2.png",
+      "/eod/eod3.png",
+      "/eod/eod4.png",
+      "/eod/eod5.png",
+      "/eod/eod6.png",
+    ],
+  },
+  {
+    id: "4610-pr-website",
+    title: "4610 with CMS",
+    category: "Marketing Agency",
+    projectType: "Personal Project",
+    platform: "web",
+    summary:
+      "4610 Public Relations and Integrated Marketing Inc. is an integrated communications agency delivering public relations, digital services, marketing, and business strategy solutions that drive meaningful growth.",
+    challenge:
+      "4610 Public Relations and Integrated Marketing Inc. is an integrated communications agency delivering public relations, digital services, marketing, and business strategy solutions that drive meaningful growth.",
+    solution:
+      "4610 Public Relations and Integrated Marketing Inc. is an integrated communications agency delivering public relations, digital services, marketing, and business strategy solutions that drive meaningful growth.",
+    techStack: ["Next.js", "React.js", "Tailwind CSS"],
+    coverImage: "/4610/4610_1.png",
+    gallery: [
+      "/4610/4610_1.png",
+      "/4610/4610_2.png",
+      "/4610/4610_3.png",
+      "/4610/4610_4.png",
+      "/4610/4610_5.png",
+      "/4610/4610_6.png",
+      "/4610/4610_7.png",
+      "/4610/4610_8.png",
+    ],
+  },
+  {
     id: "marketing-agency-website",
     title: "Pulse Media PH",
     category: "Marketing Agency",
